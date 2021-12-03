@@ -1,7 +1,8 @@
+import cs from "./content.module.css"
 
 let Content = () => {
     return (
-      <div className={'content'}>
+      <div className={cs.content}>
           pirivet
       </div>
     );

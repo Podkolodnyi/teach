@@ -1,7 +1,7 @@
 import './App.css';
-import Header from "./components/header";
-import Nav from "./components/nav";
-import Content from "./components/content";
+import Header from "./components/header/header";
+import Nav from "./components/nav/nav";
+import Content from "./components/content/content";
 
 
 let App = () => {
