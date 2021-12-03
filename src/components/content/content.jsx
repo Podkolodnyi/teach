@@ -1,9 +1,10 @@
 import cs from "./content.module.css"
+import Profile from "./profile/profile";
 
 let Content = () => {
     return (
       <div className={cs.content}>
-          pirivet
+          <Profile name = "3acep9l"/>
       </div>
     );
 }
