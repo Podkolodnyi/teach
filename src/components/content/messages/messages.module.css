@@ -1,11 +1,6 @@
-.profileWrap {
+.messagesWrap {
     grid-area: content;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
     padding: 5px;
-}
-
-.avatar {
-    height: 100px;
-    width: 100px;
+    color: white;
 }

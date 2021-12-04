@@ -1,0 +1,20 @@
+.nav {
+    grid-area: nav;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.navBar {
+    list-style-type: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.linkActive {
+    color: rgba(25, 47, 247, 0.99);
+    text-decoration: none;
+    cursor: default;
+}

@@ -1,16 +1,17 @@
 import './App.css';
-import Header from "./components/header/header";
-import Nav from "./components/nav/nav";
-import Content from "./components/content/content";
-
+import {Route, Routes} from "react-router-dom";
+import Profile from "./components/content/profile/profile";
+import Messages from "./components/content/messages/messages";
+import Layout from "./components/layout/layout";
 
 let App = () => {
   return (
-      <div className={'AppWrapper'}>
-          <Header />
-          <Nav />
-          <Content />
-      </div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/messages" element={<Messages />} />
+        </Route>
+      </Routes>
   );
 }
 

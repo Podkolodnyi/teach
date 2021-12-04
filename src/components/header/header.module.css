@@ -1,9 +1,0 @@
-.header {
-    grid-area: header;
-    background-color: rgba(131, 179, 199, 0.3);
-    border: 1px solid rgba(131, 179, 199, 0.5);
-}
-.logo {
-    width: 75px;
-    height: 75px;
-}

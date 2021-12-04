@@ -1,0 +1,7 @@
+.layout {
+    min-height: 100%;
+    display: grid;
+    grid-template: 100px 1fr / 200px 1fr;
+    grid-template-areas: 'header header' 'nav content';
+    grid-gap: 15px;
+}
