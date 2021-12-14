@@ -6,9 +6,9 @@ let Profile = (props) => {
         <div className={cs.profileWrap}>
         <img className={cs.avatar} alt={"ava"}/>
             <div className={cs.name}> {props.name} </div>
-        <Posts />
+        <Posts postsData = {props.profilePage.postsData}/>
         </div>
     );
-}
+};
 
 export default Profile;
