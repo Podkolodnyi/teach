@@ -6,7 +6,8 @@ let Profile = (props) => {
         <div className={cs.profileWrap}>
         <img className={cs.avatar} alt={"ava"}/>
             <div className={cs.name}> {props.name} </div>
-        <Posts postsData = {props.profilePage.postsData}/>
+        <Posts postsData = {props.profilePage.postsData} newPostText = {props.profilePage.newPostText}
+               postText = {props.postText} addPost = {props.addPost}/>
         </div>
     );
 };
